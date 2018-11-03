@@ -1,0 +1,10 @@
+def my_method(s)
+  if s.length > 10
+    s.upcase
+  else
+    puts "string is too short"
+  end
+end
+
+puts my_method("hello world")
+puts my_method("hello")

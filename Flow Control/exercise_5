@@ -1,0 +1,20 @@
+
+def evaluate_num(number)
+
+ case 
+ when number < 0
+  puts "Your number is a negative"
+ when number <= 50
+    puts "Your number is between 0 and 50"
+  when number <= 100
+    puts "Your number is between 51 and 100"
+  when number > 100
+    puts "Your number is over 100!"
+end
+end
+
+evaluate_num(20)
+evaluate_num(60)
+evaluate_num(222222)
+evaluate_num(-50)
+
